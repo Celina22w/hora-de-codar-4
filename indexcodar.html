@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br-pt">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
 <body>
     <script>
         // 1- Crie um programa onde o usuário possa cadastrar estudantes sem limites, e, em seguida, Se o usuário digitar "PARE" o programa deve exibir a quantidade de estudantes cadastrados e a lista com cada um deles.//
-        
+
         var estudantes = [];
 
         while (true){
@@ -47,42 +47,6 @@
         else {
             alert("O planeta não está na lista")
         }
-
-
-
-        //Vamos criar uma lista de compras. 
-
-        //Crie uma array de frutas, exiba-a ao usuário e, em seguida, peça ao usuário para digitar o nome de uma das frutas.
-
-        //Caso a fruta esteja no array, remova-a e exiba a mensagem "Fruta foi retirada da lista". 
-
-        //Peça novamente para o usuário digitar o nome de uma fruta para ser removida. 
-
-        //Sempre que o usuário procurar por uma fruta que não está no array exiba a mensagem "Fruta indisponível no nosso mercado". 
-
-        //Quando o array não possuir mais itens dentro de si, escreva "Lista de compras finalizada".
-
-        var listadefrutas = ["Abacate", "Bacaba", "Banana", "Romã"];
-
-        while (listadefrutas.length > 0) {
-            var fruta = prompt("Digite o nome de uma fruta para removê-la da lista:");
-
-            var indice = listadefrutas.indexOf(fruta);
-            if (indice !== -1) {
-                listadefrutas.splice(indice, 1);
-                alert("Fruta foi retirada da lista");
-            } else {
-                alert("Fruta indisponível no nosso mercado");
-            }
-
-            if (listadefrutas.length === 0) {
-                alert("Lista de compras finalizada.");
-            }
-        }
-
-
-
-
 
     </script>
 
